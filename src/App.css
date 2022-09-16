@@ -142,7 +142,7 @@
 }
 @media only screen and (max-width: 600px){
   .header{
-    width: 72%;
+    width: 52%;
     font-size: 15px;
   }
   .grid-4{

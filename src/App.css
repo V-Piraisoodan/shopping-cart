@@ -142,14 +142,15 @@
 }
 @media only screen and (max-width: 600px){
   .header{
-    width: 52%;
-    font-size: 15px;
+    width: 43%;
+    font-size: 19px;
   }
   .grid-4{
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 17px;
     width: 95px;
+    padding: 7px 14px;
     height: 20px;
   }
   .count{
@@ -163,10 +164,10 @@
     height: 200px;
   }
   .first-line{
-    font-size: 40px;
+    font-size: 45px;
   }
   .second-line{
-    font-size: 15px;
+    font-size: 19px;
   }
   .card-list{
     flex-direction: column;
@@ -174,7 +175,18 @@
   .card-container{
     width: 290px;
   }
+  .item{
+    font-size: 22px;
+  }
+  .price{
+    font-size: 18px;
+  }
+  .button{
+    font-size: 18px;
+    width: 60%;
+  }
   .footer{
     width: 465px;
+    font-size: 20px;
   }
 }

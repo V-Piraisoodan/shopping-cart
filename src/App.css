@@ -140,3 +140,41 @@
   background-color: rgba(0, 0, 0, 0.89);
   height: 120px;
 }
+@media only screen and (max-width: 600px){
+  .header{
+    width: 72%;
+    font-size: 15px;
+  }
+  .grid-4{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    width: 95px;
+    height: 20px;
+  }
+  .count{
+    font-size: 13px;
+  }
+  .cart{
+    display: none;
+  }
+  .style{
+    width: 465px;
+    height: 200px;
+  }
+  .first-line{
+    font-size: 40px;
+  }
+  .second-line{
+    font-size: 15px;
+  }
+  .card-list{
+    flex-direction: column;
+  }
+  .card-container{
+    width: 290px;
+  }
+  .footer{
+    width: 465px;
+  }
+}

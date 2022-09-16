@@ -59,13 +59,13 @@ function App() {
   }
 }
   return (
-    
+
   <div className='App'>
     <div className='header'>
       <div className='grid-1'>Home</div>
       <div className='grid-2'>About</div>
       <div className='grid-3'>Shop</div>
-      <div className='grid-4'>🛒 Cart  <span className='count'>{count}</span></div>
+      <div className='grid-4'>🛒<span className='cart'>Cart</span> <span className='count'>{count}</span></div>
     </div>
     <div className='style'>
       <section className='first-line'>Shop in style</section>
@@ -73,7 +73,7 @@ function App() {
     </div>
     <section className='card-list'>
       {pricecard.map(({id,pic,item,sale,strike,price,button,view,index})=>(
-        <div className='card-container'>
+      <div className='card-container'>
         <div className='img'>
          <img className='card-image'
          src={pic}

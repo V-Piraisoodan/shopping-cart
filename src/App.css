@@ -1,38 +1,142 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  padding-left: 30px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  grid-template-columns: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-1{
+  cursor: pointer;
 }
+.grid-2 ,.grid-3{
+  color: dimgray;
+  cursor: pointer;
+}
+.grid-4{
+  font-size: 18px;
+  margin-left: 73%;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 8px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.count{
+  background-color: rgb(57, 60, 240);
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 3px 8px;
+  font-size: 15px;
+  margin: 0  0 0px 4px;
+}
+.style{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.first-line{
+  color: aliceblue;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 70px;
+}
+.second-line{
+  color: rgb(145, 145, 145);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.card-list{
+  margin: 70px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.card-container{
+  display: flex;
+  border-radius: 7px;
+  align-items: center;
+  border: 1px solid rgb(185, 185, 185);
+  width: 18%;
+  height: 350px;
+  flex-direction: column;
+  margin: 20px;
+}
+.card-specs{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 5px 2px auto 2px;
+}
+.button{
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 130px;
+  margin-bottom: 30px;
+}
+.button:hover{
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+}
+.button:active{
+  color: rgb(43, 43, 43);
+  background-color: rgb(255, 255, 255);
+}
+.sale{
+  position:absolute;
+  right: 12px;
+  top: 9px;
   color: white;
+  width: 45px;
+  padding: 4px 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 0, 175);
+  font-size: 12px;
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.img{
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-image{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 7px 7px 0 0;
+}
+.item{
+  margin-bottom: 10px;
+}
+.strike{
+  margin-bottom: 5px;
+  color: rgb(107, 107, 107);
+  padding-right: 5px;
+}
+.price{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.89);
+  height: 120px;
 }
